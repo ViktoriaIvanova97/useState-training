@@ -30,6 +30,7 @@ const StateObject = () => {
   };
   return (
     <>
+      <h3>Профиль пользователя</h3>
       <div>
         <p>Имя:{user.name}</p>
       </div>

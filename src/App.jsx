@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import StateObject from './StateObject'
-
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import StateObject from "./StateObject";
+import StateArr from "./StateArr";
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <StateObject/>
+      <StateObject />
+      <StateArr />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
