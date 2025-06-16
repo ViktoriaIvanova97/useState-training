@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import StateObject from "./StateObject";
 import StateArr from "./StateArr";
+import StateArrayOfObjs from "./StateArrayOfObjs";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <StateObject />
       <StateArr />
+      <StateArrayOfObjs/>
     </>
   );
 }
